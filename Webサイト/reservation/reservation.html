@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="訓練校課題で制作したサイト">
+
+  <!-- INFO -->
+  <title>FAKE_箱根の宿 彗 - SUI</title>
+  <link rel="icon" href="../css/images/fabicon.svg" type="image/svg+xml">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+
+  <!-- OGP -->
+  <meta property="og:url" content="https://pf-ws000.netlifty.app">
+  <meta property="og:title" content="FAKE_箱根の宿 彗 - SUI">
+  <meta property="og:description" content="訓練校課題で制作した架空のサイトページです。">
+  <meta property="og:image" content="css/images/OGP.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="inner header-inner">
+      <a class="logo" href="../index.html"></a>
+
+      <!-- ハンバーガーメニューナビ（レスポンシブで表示:960px） -->
+      <div class="menu-wrapper">
+        <input type="checkbox" id="menu-toggle" hidden>
+
+        <label class="menu_icon" for="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav id="gnav_row" class="global-nav">
+          <ul>
+            <a href="../about/about.html">
+              <li>彗の理念</li>
+            </a>
+            <a href="../plan/plan.html#rooms">
+              <li>お部屋</li>
+            </a>
+            <a href="../plan/plan.html#hotspring">
+              <li>温泉</li>
+            </a>
+            <a href="../plan/plan.html#dishes">
+              <li>お料理</li>
+            </a>
+            <a href="../access.html">
+              <li>アクセス</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- 通常ナビ（レスポンシブで非表示:960px） -->
+      <nav id="gnav_column" class="global-nav">
+        <ul>
+          <a href="../about/about.html">
+            <li>彗の理念</li>
+          </a>
+          <a href="../plan/plan.html#rooms">
+            <li>お部屋</li>
+          </a>
+          <a href="../plan/plan.html#hotspring">
+            <li>温泉</li>
+          </a>
+          <a href="../plan/plan.html#dishes">
+            <li>お料理</li>
+          </a>
+          <a href="../access/access.html">
+            <li>アクセス</li>
+          </a>
+        </ul>
+      </nav>
+      <div><a href="../reservation/reservation.html" class="btn_reserve">ご予約はこちら</a></div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Key Visual -->
+    <section class="section hero" id="top">
+      <div class="hero-overlay"></div>
+      <div class="inner hero-inner topics">
+        <wrapper class="topic_hero">
+          <h3 class="title_topic">【宿泊予約】</h3>
+        </wrapper>
+      </div>
+    </section>
+
+    <section class="flowwrapper">
+      <img src="./css/images/img_res_step.jpg" alt="流れ">
+    </section>
+
+    <section class="search wrapper">
+      <div class="search-inner">
+        <div class="tabs">
+          <button class="active">プラン</button>
+          <button>空室情報</button>
+        </div>
+
+        <section>
+          <form class="search-form">
+            <div class="form-item">
+              <div class="fi_title"><label>チェックイン日</label></div>
+              <div class="fi_input"><input type="date"></div>
+            </div>
+
+            <div class="form-item">
+              <div class="form-item">
+                <div class="fi_title"><label>チェックアウト日</label></div>
+                <div class="fi_input"><input type="date"></div>
+              </div>
+            </div>
+
+            <div class="form-item">
+              <div class="fi_title"><label>部屋数</label></div>
+              <select class="fi_input">
+                <option>1</option>
+                <option>2</option>
+              </select>
+            </div>
+
+            <div class="form-item">
+              <div class="fi_title"><label>利用人数</label></div>
+              <select class="fi_input">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+        </section>
+      </div>
+      </form>
+      </div>
+    </section>
+
+    <!-- ===========================
+      プラン詳細（修正版）
+=========================== -->
+    <section class="plan-detail wrapper">
+
+      <div class="plan-flex">
+        <div class="plan-left">
+          <img class="main-image" src="./css/images/img_bed.jpg" alt="ベット写真">
+          <div class="thumbnails">
+            <img src="./css/images/img_catch_1.jpg">
+            <img src="./css/images/img_catch_2.jpg">
+            <img src="./css/images/img_catch_3.jpg">
+          </div>
+        </div>
+
+        <div class="plan-right">
+          <h2>【年末限定プラン】贅沢の蕾もりステイ</h2>
+
+          <ul class="plan-points">
+            <li>・チェックイン時間15時〜18時</li>
+            <li>・現地支払い／クレジットカード対応</li>
+          </ul>
+
+          <p class="plan-text">
+            日頃の喧騒から離れ、ゆっくりと自分にご褒美を。
+            当館の「贅沢お籠りプラン」は、全10室だけの静かな空間で、質の高いおもてなしをゆったりとご堪能いただけます。
+
+            お部屋はすべて 客室露天風呂付き。
+            湯に身を委ねながら、目の前に広がる 箱根の山々の美しい景色を独り占めできます。
+
+            お食事は、厳選した 上質な素材を使った料理長こだわりの会席をご用意。
+            素材そのものの旨みを引き出した、ここでしか味わえない おいしい料理を心ゆくまでお楽しみください。
+
+            大切な人と、そしてご自分自身のために。
+            心と身体をゆっくりとほどく、特別なひとときをお過ごしください。
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===========================
+      予約ボックス（修正版）
+=========================== -->
+    <section class="reserve-box wrapper">
+      <div class="reserve-item">
+
+        <img src="./css/images/img_res_box.jpg" alt="予約画面写真">
+
+        <div class="reserve-info">
+          <h3>【年末限定プラン】 贅沢お籠もりステイ</h3>
+          <p>定員2名</p>
+          <p class="price">合計 90,000円</p>
+
+        </div>
+
+        <button class="reserve-btn">宿泊予約</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site_footer">
+      <div class="inner footer_inner">
+        <div class="footer_left">
+          <div class="footer_logo"></div>
+          <p class="footer_address">
+            〒XXX-XXXX<br>
+            神奈川県足柄下郡箱根町<br>
+            静岡県箱根市○○2-2-2<br>
+            TEL 0465-11-0000<br>
+            (10:00～17:00)
+          </p>
+        </div>
+        <div class="footer_right">
+          <ul>
+            <li><a href="../plan/plan.html#rooms">お部屋</a></li>
+            <li><a href="../plan/plan.html#hotspring">温泉</a></li>
+            <li><a href="../plan/plan.html#dishes">お食事</a></li>
+            <li><a href="../access/access.html">アクセス</a></li>
+            <li>周辺スポット</li>
+          </ul>
+          <ul>
+            <li><a href="../about.html#reservation">お問い合わせ</a></li>
+            <li>個人情報保護方針</li>
+            <li>宿泊約款</li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer_copy">&copy 銀河リゾート Rights Reserved.</p>
+    </footer>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
